@@ -1,0 +1,85 @@
+
+.title {
+    background: tomato;
+    width: 20rem;
+    height: auto;
+    text-align: center;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.container-first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    /* justify-content: center; */
+}
+button {
+    color: rgb(255, 255, 255);
+    background: tomato;
+    width: 15rem;
+    
+
+    
+}
+.container-about {
+    background: skyblue;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.container-book{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    
+}
+
+.form-head {
+    background: burlywood;
+    padding: 20px;
+    margin: 35px;
+    border-radius: 20px;
+    width: 45rem;
+    height: auto;
+    display: flex;
+    /* text-align: center; */
+    flex-direction: column;
+    align-items: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.formulir-peminjam {
+    width: 45rem;
+    background-color: yellow;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    padding-bottom: 30px;
+}
+
+
+.formulir-book {
+    width: 40rem;
+    background-color: yellowgreen;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    padding-bottom: 30px;
+}
